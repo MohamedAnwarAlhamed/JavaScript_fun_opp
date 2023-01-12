@@ -94,3 +94,4 @@ if (myFriends.lastIndexOf("Osama") === -1) {
 
 console.log(myFriends.indexOf("Osama"));
 console.log(myFriends.lastIndexOf("Osama"));
+
