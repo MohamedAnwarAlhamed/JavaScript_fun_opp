@@ -212,3 +212,24 @@ let serials = "S100S S3000S S50000S S950000S";
 console.log(serials.match(/s\d{3}s/ig)); // S[Three Number]S
 console.log(serials.match(/s\d{4,5}s/ig)); // S[Four Or Five Number]S
 console.log(serials.match(/s\d{4,}s/ig)); // S[At Least Four]S
+
+/*
+  Regular Expression
+
+  Quantifiers
+  $  => End With Something
+  ^  => Start With Something
+  ?= => Followed By Something
+  ?! => Not Followed By Something
+*/
+
+let myString = "We Love Programming";
+let names = "1OsamaZ 2AhmedZ 3Mohammed 4MoustafaZ 5GamalZ";
+
+console.log(/ing$/ig.test(myString));
+console.log(/^we/ig.test(myString));
+console.log(/lz$/ig.test(names));
+console.log(/^\d/ig.test(names));
+
+console.log(names.match(/\d\w{5}(?=Z)/ig));
+console.log(names.match(/\d\w{8}(?!Z)/ig));
