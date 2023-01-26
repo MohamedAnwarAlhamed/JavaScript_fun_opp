@@ -233,3 +233,8 @@ console.log(/^\d/ig.test(names));
 
 console.log(names.match(/\d\w{5}(?=Z)/ig));
 console.log(names.match(/\d\w{8}(?!Z)/ig));
+/*
+https://regexr.com/
+https://www.regextester.com/
+https://regex101.com/
+*/
