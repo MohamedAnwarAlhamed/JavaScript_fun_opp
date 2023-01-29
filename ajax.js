@@ -53,6 +53,8 @@ myRequest.onreadystatechange = function () {
   Search
   - Cross Origin API [CORS]
   - API Authentication
+
+  https://www.w3schools.com/xml/ajax_xmlhttprequest_response.asp
 */
 
 let myRequest = new XMLHttpRequest();
